@@ -1,0 +1,47 @@
+body {background: #fff url("img/bg-2.jpg") right no-repeat; margin: 0; padding: 0; font-family: Lato}
+
+@font-face { font-family: Lato; src: url(font/Lato-Regular.ttf);
+}
+
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 1279px) {
+    body {font-size:85%;}
+}
+
+@media screen and (min-width: 1280px) {
+    body {font-size: 100%;}
+
+    
+.logo { width: 500px;}
+
+.container {width: 50%; margin: 100px 0 60px 70px; color: #000; text-align: center}
+ul, li { list-style: none }
+
+h2, h3 {font-weight: normal}
+b { }
+a { text-decoration: none; color: #b9b30b; font-weight: bold }
+a:hover {text-decoration: underline}
+
+h1 {text-transform: uppercase; color: #de2d5f;}
+h2 { font-size: 20px; text-align: justify; }
+h3 { font-size: 16px;  text-align: justify;}
+
+
+.bottom { margin: 40px auto 30px auto; color: #de2d5f}
+.bottom li { margin-bottom: 10px; font-weight: bold; text-transform: uppercase }
+.soc { }
+.soc:hover {animation: buttons 1s both normal}
+
+.ros {font-size: 20px; margin-bottom: 10px; display: block}
+
+@keyframes buttons {
+    100% {transform: scale(1.1,1.1)  ;
+    ;
+    }
+}
+
+.zmen {font-size: 20px; color: #b9b30b; text-transform: uppercase; font-weight: bold; margin-top: 20px}
+.arrow {position: absolute; left: 600px; top: 130px; width: 379px; height: 185px; display: block }
+

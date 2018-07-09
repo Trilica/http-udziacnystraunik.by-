@@ -1,0 +1,36 @@
+body {background: #fff; margin: 0; padding: 0; font-family: Lato}
+
+@font-face { font-family: Lato; src: url(font/Lato-Regular.ttf);
+}
+
+.logo { width: 300px; margin: 20px 0 20px 0}
+.container {width: 90%; margin: 0 auto; color: #000; text-align: center; padding-bottom: 20px}
+ul, li { list-style: none; margin: 0; padding: 0 }
+
+h2, h3 {font-weight: normal}
+b { }
+a { text-decoration: none; color: #b9b30b; font-weight: bold }
+a:hover {text-decoration: underline}
+
+h1 {text-transform: uppercase; color: #de2d5f;}
+h2 { font-size: 20px; text-align: justify; }
+h3 { font-size: 16px;  text-align: justify;}
+
+
+.bottom { margin: 40px auto 30px auto; color: #de2d5f}
+.bottom li { margin-bottom: 10px; font-weight: bold; text-transform: uppercase }
+.soc { }
+.soc:hover {animation: buttons 1s both normal}
+
+.ros {font-size: 30px; margin-bottom: 10px; display: block}
+
+@keyframes buttons {
+    100% {transform: scale(1.1,1.1)  ;
+    ;
+    }
+}
+
+.zmen {font-size: 20px; color: #b9b30b; text-transform: uppercase; font-weight: bold}
+.arrow {width: 70%}
+.bg-mobile {background: url("img/bg-mobile.jpg"); width: 350px; height: 171px; margin: 0 auto}
+
